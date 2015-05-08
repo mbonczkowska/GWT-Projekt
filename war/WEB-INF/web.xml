@@ -8,17 +8,17 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>greetServlet</servlet-name>
-    <servlet-class>package1.server.GreetingServiceImpl</servlet-class>
+    <servlet-class>package2.server.GreetingServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
-    <url-pattern>/progression/greet</url-pattern>
+    <url-pattern>/crud/greet</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>Progression.html</welcome-file>
+    <welcome-file>CRUD.html</welcome-file>
   </welcome-file-list>
 
 </web-app>
